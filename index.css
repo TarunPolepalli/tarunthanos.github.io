@@ -1,0 +1,25 @@
+/*we use # for id and . for class * to select whole body*/
+h1{
+	text-align: center;
+	background-color: grey;
+	font-style: sans-serif;
+	color: white;
+}
+#hello{
+	text-align: right;
+	background-color: rgba(200,0,0,0.5);
+	padding: 10px; 
+}
+body{
+	background-color: rgb(255,228,225);
+	font-family: 'Chelsea Market', cursive;
+}
+ul +li {
+	color:yellow;
+}
+div{
+	background-color: white;
+}
+span{
+	background-color: black;
+}

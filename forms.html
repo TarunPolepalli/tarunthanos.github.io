@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forms</title>
+</head>
+<body>
+
+<h1>Login</h1>
+
+<form method="get">
+	<!-- action = where the form data goes to-->
+	<!-- method = what HTTP method (either get or post)-->
+	
+
+	<label><!-- here label is used to give the particular input name -->
+	<p>Username:</p>
+	<input type="text" placeholder="john wick" name="username" required>
+    </label>
+    <br>
+
+<!--this is for normal forms-->
+    <label for="password"></label>
+    <p>Password:</p>
+    <input id="password" type="password" placeholder="password" name="password" required><br>
+
+<!-- this is for radio buttons -->
+    <p>Gender:</p>
+
+    <label for="male">male</label>
+    <label for="female">female</label>
+   
+    <input id="male" type="radio" name="gender" value="male"><br>
+    <input id="female" type="radio" name="gender" value="female"><br>
+<!-- name should be same so that both cant be selected
+value is used to know the desired option -->
+
+	<!--this is for drop down menu -->
+
+	<p>what's your age</p>
+
+	<select name="age">
+		<option>Select</option>
+		<option value="small">0-18</option>
+		<option value="teen">19-35</option>
+		<option value="little old">36-58</option>
+		<option value="old">59 and above</option>
+	</select><br>
+
+	<!--if we want to make an area to large input-->
+	<p>Want to give some suggestions</p><br>
+	<textarea name="suggestions" rows="10" cols="50"></textarea>	
+	
+	<br>
+	<input type="submit">
+</form>
+
+
+</body>
+</html>
