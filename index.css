@@ -1,25 +1,16 @@
-/*we use # for id and . for class * to select whole body*/
 h1{
-	text-align: center;
-	background-color: grey;
-	font-style: sans-serif;
-	color: white;
+    text-align: center;
+    font-style: sans-serif;
+    color: rgba(212, 68, 68, 0.719);
+    background-color:antiquewhite;
 }
-#hello{
-	text-align: right;
-	background-color: rgba(200,0,0,0.5);
-	padding: 10px; 
+h6{
+    text-align: center;
 }
-body{
-	background-color: rgb(255,228,225);
-	font-family: 'Chelsea Market', cursive;
+table{
+    align-content: center;
+    margin: auto;
 }
-ul +li {
-	color:yellow;
-}
-div{
-	background-color: white;
-}
-span{
-	background-color: black;
+.heading{
+    background-color: rgb(217, 214, 247);
 }
