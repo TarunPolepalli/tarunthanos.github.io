@@ -16,6 +16,11 @@ h1,h2{
     background-color: white;
     box-shadow:7px 7px grey;
 }
+#card:hover{
+    background-color: rgba(155, 155, 134, 0.836);
+    padding: 20px;
+    display: block;
+}
 table{
     align-content: center;
     margin: auto;
