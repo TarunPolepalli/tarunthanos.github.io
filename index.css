@@ -1,16 +1,30 @@
-h1{
-    text-align: center;
-    font-style: sans-serif;
-    color: rgba(212, 68, 68, 0.719);
-    background-color:antiquewhite;
+body{
+    background-color: rgb(242, 255, 204);
+    background-image: url('new.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
-h6{
+h1,h2{
     text-align: center;
+    background-color: rgba(78, 73, 73, 0.267);
+    margin: auto;
+}
+#card{
+    width: 15rem;
+    border:2px solid black;
+    background-color: white;
+    box-shadow:7px 7px grey;
 }
 table{
     align-content: center;
     margin: auto;
 }
-.heading{
-    background-color: rgb(217, 214, 247);
+td,tr{
+    padding: 10% 10%;
+}
+#contactme{
+    text-align: center;
+    margin: auto;
+    background-color:  rgba(78, 73, 73, 0.267);
 }

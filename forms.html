@@ -1,14 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Forms</title>
+    <title>SignUp</title>
+    <link rel="stylesheet" type="text/css" href="forms.css">
 </head>
 <body>
-    <h1>Welcome to forms</h1>
-    <form type="get">
-        Name:<input type="text" id="Name"><br>
-        Date of Birth:<input type="date" id="DOB"><br>
-        
-    </form>
+    <h1>SignUp</h1>
+    <form>
+        <label for="First Name">First Name</label><br>
+        <input type="text" id="Firstname" name="Firstname" required><hr>
+        <label for="LastName">LastName</label><br>
+        <input type="text" id="Lastname" name="Lastname" required><hr>
+        <label for="mail">Mail</label><br>
+        <input type="email" id="mail" name="mail" required><hr>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" required><hr>
+        <label for="Dateofbirth">The First Day you Cried</label><br>
+        <input type="date" id="Dateofbirth" name="Dateofbirth"><hr>
+        <label for="Gender">Gender</label><br>
+        <select name="Gender" id="Gender">
+            <option value="Select">--Select--</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Prefer not to Say">Prefer Not to Say</option>
+        </select><hr>
+        <label for="colour">What's your favourite Colour</label><br>
+        <input type="color" id="colour"><hr>        
+        <input type="submit" value="SignUp">
+        <a href="login.html"><input type="button" value="Login"></a>
+    </form><hr>
+    <a href="index.html"><img src="home2.png" width="35px"></a>
 </body>
 </html>

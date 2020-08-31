@@ -1,0 +1,15 @@
+form{
+    text-align: center;
+    margin: auto;
+}
+body{
+    background-image: url('new.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+    margin: auto;
+}
+h1{
+    background-color: rgba(136, 194, 233, 0.418);
+}
