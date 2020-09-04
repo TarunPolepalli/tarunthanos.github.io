@@ -1,13 +1,12 @@
 body{
     background-color: rgb(242, 255, 204);
-    background-image: url('new.jpg');
+    background-image: url('newhome.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
 h1,h2{
     text-align: center;
-    background-color: rgba(78, 73, 73, 0.267);
     margin: auto;
 }
 #card{
@@ -25,7 +24,10 @@ table{
     align-content: center;
     margin: auto;
 }
-td,tr{
+tr{
+    padding: 10% 10%;
+}
+td{
     padding: 10% 10%;
 }
 #contactme{
@@ -33,3 +35,32 @@ td,tr{
     margin: auto;
     background-color:  rgba(78, 73, 73, 0.267);
 }
+.sidenav {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(104, 216, 250);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .sidenav h4{
+      font-size: 30px;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+  }
+  .main {
+    margin-left: 150px;
+    padding: 0px 10px;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+    background-color: rgb(103, 82, 182);
+  }
